@@ -59,18 +59,18 @@ This section details common attack vectors in cloud environments, including unau
 
 ### Types of Attacks
 
-- Exploiting Weak Credentials**
+- Exploiting Weak Credentials
   - Brute Force Attacks
   - Credential Stuffing
-- Data Breaches**
+- Data Breaches
   - API Key Exposure
   - SQL Injection
-- Denial of Service (DoS)**
+- Denial of Service (DoS)
   - Distributed DoS (DDoS)
-- Elevation of Privilege**
+- Elevation of Privilege
   - Hypervisor Vulnerabilities
   - Container and VM Escapes
-- **Account Takeover**
+- **Account Takeover
   - Phishing and Session Hijacking
 
 ## Attack Tree
