@@ -70,7 +70,7 @@ This section details common attack vectors in cloud environments, including unau
 - Elevation of Privilege
   - Hypervisor Vulnerabilities
   - Container and VM Escapes
-- **Account Takeover
+- Account Takeover
   - Phishing and Session Hijacking
 
 ## Attack Tree
