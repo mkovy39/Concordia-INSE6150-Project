@@ -1,90 +1,44 @@
+# INSE6150-Project - Cloud Security Evaluation
 
-```markdown
-# Concordia-INSE6150-Project: Cloud Security Evaluation
+## Cloud Security Evaluation
 
-This repository houses the course project for INSE6150 at Concordia University, focusing on a comprehensive evaluation of cloud security.
-The project explores various security aspects of cloud computing, including risks, threats, and vulnerabilities that could hinder the adoption of cloud technologies.
+This repository contains our work for the INSE6150 course, focused on evaluating various security aspects of cloud computing. We explore the risks, threats,
+and vulnerabilities that could impact the adoption of cloud technologies. This project was conducted as part of the coursework for INSE6150, Winter 2024.
 
-## Table of Contents
+## About Cloud Computing
 
-- Objective
-- Cloud Computing Basics
-- Cloud Security Essentials
-- Cloud Attack Surface
-- Attack Tree
-- Conclusion
-- References
+Cloud computing provides scalable and flexible resources over the internet, including:
+- Personal and corporate data storage
+- Application hosting
+- Database management
 
-## Objective
+These services are available through various models such as IaaS, PaaS, and SaaS, 
+and support multiple architectures including public, private, and hybrid clouds.
 
-The primary aim of this project is to analyze and understand the security landscape of cloud computing, emphasizing the increasing risks as cloud usage grows.
-This project serves as an academic exploration to identify potential security obstacles in cloud adoption.
+## Security Challenges Overview
 
-## Cloud Computing Basics
+The expansion of cloud computing introduces significant security challenges, including:
+- Data breaches and data leaks
+- Unauthorized access and data exposure
+- Service disruptions and Denial of Service (DoS) attacks
 
-### What is Cloud Computing?
+These challenges often stem from vulnerabilities in configuration, software flaws, and human errors.
 
-Cloud computing offers on-demand network access to a shared pool of configurable computing resources.
-It allows for flexible, scalable, secure, and cost-efficient resource utilization over the internet.
+## Evaluation Methodology
 
-### Types of Cloud Computing
+Our evaluation of cloud security encompasses several key steps:
+1. Reviewing literature and case studies to outline prevalent vulnerabilities.
+2. Analyzing reported security incidents and breaches.
+3. Suggesting strategic measures to mitigate identified risks.
 
-- Public Cloud
-- Private Cloud
-- Hybrid Cloud
 
-Services Offered
+### Prerequisites
 
-- Infrastructure as a Service (IaaS)
-- Platform as a Service (PaaS)
-- Software as a Service (SaaS)
+A basic understanding of cloud computing architectures and security principles is recommended to fully engage with the content and recommendations provided.
 
-## Cloud Security Essentials
+## Acknowledgements
 
-Cloud security involves policies, procedures, and technological tools to ensure data security, regulatory compliance, and control over privacy and authentication.
+- Md. Khiruzzaman
+- Tonmoy Roy
 
-### Key Areas to Secure
-
-- Physical networks
-- Data storage and servers
-- Virtualization frameworks
-- Operating systems and middleware
-- Runtime environments
-- Data and applications
-- End-user hardware
-
-## Cloud Attack Surface
-
-This section details common attack vectors in cloud environments, including unauthorized access, data breaches, and denial of service attacks.
-
-### Types of Attacks
-
-- Exploiting Weak Credentials
-  - Brute Force Attacks
-  - Credential Stuffing
-- Data Breaches
-  - API Key Exposure
-  - SQL Injection
-- Denial of Service (DoS)
-  - Distributed DoS (DDoS)
-- Elevation of Privilege
-  - Hypervisor Vulnerabilities
-  - Container and VM Escapes
-- Account Takeover
-  - Phishing and Session Hijacking
-
-## Attack Tree
-
-The project includes an attack tree diagram that illustrates various attack vectors and their relationships.
-It highlights major threats and vulnerabilities to the STRIDE properties of cloud security.
-
-[View Attack Tree Diagram](https://drive.google.com/file/d/1fCdA3rt7Nr26mZErVtVtU7asdngF1JnS/view?usp=sharing)
-
-## Conclusion
-
-The project underscores the need for robust security measures in cloud environments, highlighting
-specific vulnerabilities and threats that must be addressed to safeguard cloud computing infrastructure.
-
-## References
-
-A list of references and academic sources that informed the research and conclusions of this project.
+Special thanks to our course instructor Dr. Jeremy Clark and peers at INSE6150 for their guidance and support throughout this project.
